@@ -8,8 +8,10 @@ a{
 }
 header {
     height: 66px;
-    position:sticky;
+    position:absolute;
+    z-index:999;
     top:0;
+    width:99%;
 }
 body{
     
@@ -126,10 +128,14 @@ p.yog-content {
     text-align: center;
     width: 70%;
 }
-p.para3{
+p.para3 {
     font-family: "Roboto", sans-serif;
-      color: #677178;
-      padding-bottom:4rem;
+    color: #677178;
+    padding-bottom: 4rem;
+    line-height: 1.75;
+    width: 77%;
+    margin-bottom: 0;
+    padding-bottom: 21px;
 }
 p.yog-contentents {
     font-family: "Roboto", sans-serif;
@@ -151,7 +157,7 @@ h1.bestyoga {
 .yogacont {
     display: grid;
     grid-template-columns: 40% 50%;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
  a.yogcity-btn {
@@ -174,4 +180,63 @@ a.yogcity-btn {
 h2.ones {
     font-weight: 900;
     font-size: 36px;
+}
+.yearly-yog {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
+}
+.main-box {
+    text-align: center;
+    background-color: #f7f8f8 !important;
+}
+p.para7 {
+    font-size:14px;
+     font-family: "Roboto", sans-serif;
+}
+.main-box1 {
+    text-align: center;
+    background-color: #779393;
+    color: #ffffff;
+    border-radius:11px;
+}
+a.buy1 {
+    background-color: #779393;
+    color: #ffffff;
+    padding-inline: 20px;
+    padding-block: 8px;
+    border-radius: 20px;
+}
+a.buy2{
+    color: #779393;
+    background-color: #ffffff;
+    padding-inline: 20px;
+    padding-block: 8px;
+    border-radius: 20px;
+}
+h1.para6 {
+    font-size: 75px;
+}
+.course-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.diffrent-image {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    gap: 12px;
+}
+img.yogimage {
+    border-radius: 22px;
+}
+span {
+    color: #677178;
+    font-family: "Roboto", sans-serif;
+}
+p.para5{
+    font-family: "Roboto", sans-serif;
+    color: #677178;
 }
