@@ -43,7 +43,6 @@ a.subs:hover {
 img.logo{
     width: 120px;
 }
-
 i.fa-brands.fa-sistrix{
     color: #111518;
     font-size:22px;
@@ -487,6 +486,13 @@ h1 {
     color: #fff;
     font-size: 48px;
     margin: 0;
+}
+h1.kk {
+    color: #ffffff;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+    font-family: "Playfair Display", serif;
 }
 .add {
     position: absolute;
