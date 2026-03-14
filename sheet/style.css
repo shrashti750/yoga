@@ -83,7 +83,8 @@ ul.one {
 }
 .Eight {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 50% 50%;
+    position: relative;
 }
 a.three {
     color: #677178;
@@ -109,9 +110,10 @@ p.para1 {
     line-height: 1.75;
     font-size: 18px;
     font-family: "Roboto", sans-serif;
-    width: 79%;
+    width: 77%;
     font-size: 17px;
     padding-bottom: 22px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 h1.bestyoga {
     font-size: 3.75rem;
@@ -131,6 +133,9 @@ h1.bestyoga {
 a.ten:hover {
     background-color: #4b7878;
 }
+section.banner-section1 {
+    padding-top: 18rem;
+}
 a.ten {
     height: 51px;
     width: 150px;
@@ -139,13 +144,16 @@ a.ten {
     justify-content: center;
     align-items: center;
     color: #fff;
-    font-family: "Roboto", sans-serif;
     background-color: #779393;
-    transition:0.3s;
+    transition: 0.3s;
+    margin-bottom: 11rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 19px;
 }
 a.yogcity-btn:hover {
     background-color: #4b7878;
 }
+
 a.eleventh {
     height: 49px;
     width: 165px;
@@ -155,15 +163,18 @@ a.eleventh {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "Roboto", sans-serif;
+    font-size:19px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
+
 a.yog-button {
     border: 2px solid #779393;
     color: #779393;
-    border-radius: 30px;
+    border-radius: 50px;
     padding-inline: 44px;
     padding-block: 17px;
-    font-family: "Roboto", sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 20px;
 }
 .main-heading {
     text-align: center;
@@ -171,6 +182,10 @@ a.yog-button {
 img.yogimg {
     width: 170px;
     height: 152px;
+}
+img.yogimage {
+    border-radius: 22px;
+    width: 100%;
 }
 .Yoga-style {
     display: grid;
@@ -192,16 +207,18 @@ p.yog-content {
     color: #677178;
     text-align: center;
     width: 76%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 p.para3 {
-    font-family: "Roboto", sans-serif;
     color: #677178;
     padding-bottom: 4rem;
     line-height: 1.75;
-    width: 77%;
+    width: 84%;
     margin-bottom: 0;
     padding-bottom: 21px;
-    font-size:15px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 p.yog-contentents {
     font-family: "Roboto", sans-serif;
@@ -209,6 +226,7 @@ p.yog-contentents {
     font-size: 15px;
     line-height: 2;
     width: 89%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 .Yoga-btn {
     text-align: center;
@@ -238,18 +256,23 @@ section.banner-section3 {
     align-items: center;
     gap: 35px;
 }
- a.yogcity-btn {
-    background-color: #779393;
-    color: #fff;
-     font-family: "Roboto", sans-serif;
-}
+ 
 a.yogcity-btn {
     background-color: #779393;
     color: #fff;
-    font-family: "Roboto", sans-serif;
     padding-inline: 40px;
     padding-block: 19px;
-    border-radius: 26px;
+    border-radius: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 18px;
+}
+
+a.yogcity-btn {
+    background-color: #779393;
+    color: #fff;
+    padding-inline: 40px;
+    padding-block: 19px;
+    border-radius: 50px;
 }
 .forward {
     text-align: center;
@@ -257,7 +280,7 @@ a.yogcity-btn {
 }
 p {
     color: #677178;
-    font-family: "Roboto", sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 h2.ones {
     font-size: 36px;
@@ -273,6 +296,28 @@ h2.onest{
     margin-bottom:4rem;
 }
 
+a.fourthh:hover::after{
+    opacity:1;
+}
+a.fourthh{
+    position:relative;
+}
+
+a.fourthh {
+    color: #677178;
+}
+a.fourthh::after {
+    position: absolute;
+    content: " ";
+    background-color: #779393;
+    height: 2px;
+    top: 26px;
+    right: -5px;
+    left: -1px;
+    opacity: 0;
+    transition: 0.3s;
+    width: 35px;
+}
 h2.ones::after {
     position: absolute;
     content: " ";
@@ -295,21 +340,23 @@ h2.ones::after {
     padding-bottom: 5rem;
     border-radius: 3px;
 }
-p.para7 {
-    font-size: 14px;
-    font-family: "Roboto", sans-serif;
-    padding-inline: 3rem;
-    line-height: 1.75;
-    padding-bottom: 3rem;
-}
 p.para8 {
-    font-size: 14px;
-    font-family: "Roboto", sans-serif;
+    font-size: 16px;
     padding-inline: 3rem;
     line-height: 1.75;
     padding-bottom: 30px;
     color: #dfdfdf !important;
     width: 72%;
+    padding-bottom: 3rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+p.para7 {
+    font-size: 15px;
+    padding-inline: 3rem;
+    line-height: 1.75;
+    width: 72%;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     padding-bottom: 3rem;
 }
 .main-box1 {
@@ -350,8 +397,8 @@ h1.para6 {
 }
 .diffrent-image {
     display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    gap: 12px;
+    grid-template-columns: 23% 23% 23% 23%;
+    gap: 37px;
 }
 
 div.yogimg{
@@ -404,17 +451,20 @@ p.para5 {
     justify-content: center;
     align-items: center;
     margin-bottom: 7rem;
+    position:relative;
 }
 h2.std-head {
     font-size: 45px;
     color: #fff;
+    padding-top: 2rem;
 }
 p.para20 {
     color: #fff;
-    font-family: "Roboto", sans-serif;
     line-height: 1.80;
     padding-top: 0;
     width: 96%;
+    padding-bottom: 3rem;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 img.instructor {
     height: 419px;
@@ -508,7 +558,7 @@ li{
     display: grid;
     grid-template-columns: 28% 25% 25% 25%;
     padding-top: 3rem;
-     margin-top: 4rem;
+     margin-top: 6rem;
 }
 .newspaper {
     position: absolute;
@@ -538,20 +588,21 @@ h1.kk {
 input#eamil {
     height: 47px;
     width: 300px;
-    border-radius: 32px;
+    border-radius: 50px;
     padding-left: 25px;
     border: none;
     outline:none;
 }
 input#email::placeholder{
-     font-family: "Roboto", sans-serif;
+     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
 }
 a.subs {
     background-color: #779393;
     color: #fff;
     padding-block: 15px;
     padding-inline: 44px;
-    border-radius: 22px;
+    border-radius: 50px;
     margin-left: 5px;
     font-family: "Roboto", sans-serif;
     transition:0.3s;
@@ -598,14 +649,6 @@ ul.social-link1 {
 h1.para7 {
     font-size: 75px;
 }
-p.para7 {
-    font-size: 14px;
-    font-family: "Roboto", sans-serif;
-    padding-inline: 3rem;
-    line-height: 1.75;
-    width: 72%;
-    text-align: center;
-}
 
 .soc-mdia {
     display: flex;
@@ -634,6 +677,7 @@ svg.ugb-custom-icon {
 span.tenth {
     color: #fff;
     text-transform: uppercase;
+    font-weight: bold;
 }
 a.number:hover {
     background-color: #4b7878;
@@ -689,18 +733,73 @@ div.first-img{
 img.stk-img.wp-image-137:hover {
     opacity: 0.8;
 }
+
 img.stk-img.wp-image-137 {
     border-radius: 14px;
-    margin-top: 3rem;
     object-fit: cover;
     background-color: #263a3b !important;
     opacity: 0.4;
-    transition:0.3s;
-    cursor:pointer;
+    transition: 0.3s;
+    cursor: pointer;
+    margin-top: 0;
 }
 div.first-img {
     position: relative;
     background-color: #263a3b !important;
     border-radius: 14px;
     padding:0;
+}
+li.noner {
+    border-color: rgba(218, 222, 228, 0.5);
+    border:1px solid;
+    border-radius:50%;
+}
+h2.five {
+    color: #677178;
+    font-size: 20px;
+}
+h2 {
+    font-family: "Merriweather", serif;
+    font-size: 16px;
+}
+a.social-media:hover {
+    color: #4b7878;
+}
+i.fa-brands.fa-twitter:hover {
+    color:#4b7878;
+}
+li.noner {
+    border-color: rgba(218, 222, 228, 0.5);
+    border: 1px solid;
+    border-radius: 50%;
+    width: 30px;
+    text-align: center;
+}
+p.para12 {
+    color: #677178;
+    width: 75%;
+    line-height: 1.75;
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+span {
+    font-size: 15px;
+    font-weight: 300;
+}
+span:hover {
+    color: #4b7878;
+}
+i.fa-solid.fa-arrow-right {
+    font-size: 11px;
+}
+h2.fjh {
+    font-size: 20px;
+}
+a.terms {
+    color: #677178;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+span.lst-spn {
+    font-weight: 400;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
