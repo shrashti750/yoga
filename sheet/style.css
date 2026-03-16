@@ -133,13 +133,14 @@ h1.bestyoga {
 a.ten:hover {
     background-color: #4b7878;
 }
+
 section.banner-section1 {
-    padding-top: 18rem;
+    padding-top: 11rem;
 }
 a.ten {
     height: 51px;
     width: 150px;
-    border-radius: 29px;
+    border-radius: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -158,7 +159,7 @@ a.eleventh {
     height: 49px;
     width: 165px;
     border: 2px solid #779393;
-    border-radius: 29px;
+    border-radius: 50px;
     color: #779393;
     display: flex;
     justify-content: center;
@@ -390,9 +391,11 @@ a.buy2{
 a.buy1:hover {
     background-color: #4b7878;
 }
+
 h1.para6 {
     font-size: 75px;
     color: #779393;
+    color: #536666 !important;
 }
 .course-content {
     display: flex;
@@ -537,7 +540,7 @@ a.four:hover::after {
 a.course {
     border: 2px solid #779393;
     color: #779393;
-    border-radius: 25px;
+    border-radius: 50px;
     padding-block: 16px;
     padding-inline: 31px;
     font-family: "Roboto", sans-serif;
@@ -622,11 +625,15 @@ ul {
 a.terms {
     color: #677178;
 }
+a.terms:hover {
+    color: #4b7878;
+}
 li.terms {
     color: #677178;
+    font-size:15px;
 }
 h2.five {
-    color: #677178;
+    font-size: 20px;
 }
 p.para12 {
     color: #677178;
@@ -806,4 +813,36 @@ span.lst-spn {
 }
 a.buy2:hover {
     color: #4b7878;
+}
+a.eleventh:hover {
+    color: #4b7878;
+}
+a.terms:hover {
+    color: #4b7878;
+}
+i.fa-brands.fa-facebook:hover{
+    color: #4b7878;
+}
+i.fa-brands.fa-square-x-twitter:hover{
+  color: #4b7878;
+}
+i.fa-brands.fa-square-instagram:hover{
+     color: #4b7878;
+}
+i.fa-brands.fa-square-youtube:hover {
+ color: #4b7878;
+}
+a.four:hover {
+    color: #4b7878;
+}
+a.three:hover {
+     color: #4b7878;
+}
+a.fourthh {
+     color: #4b7878;
+}
+h2.two {
+    padding-top: 18px;
+    font-size: 20px;
+    padding-bottom: 8px;
 }
