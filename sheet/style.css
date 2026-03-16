@@ -35,11 +35,14 @@ a.subs:hover {
 .mm {
     text-align: right;
 }
+
 .main-headingyog {
-    font-size: 8rem;
+    font-size: 102px;
     margin-bottom: 0;
     color: #111518;
     line-height: 3.1cm;
+    font-family: Merriweather, sans-serif;
+    width: 50%;
 }
 img.logo{
     width: 120px;
@@ -167,13 +170,17 @@ a.eleventh {
     font-size:19px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
+a.subs:hover {
+    background-color: #4b7878;
+    color: #ffffff;
+}
 
 a.yog-button {
     border: 2px solid #779393;
     color: #779393;
     border-radius: 50px;
-    padding-inline: 44px;
-    padding-block: 17px;
+    padding-inline: 37px;
+    padding-block: 13px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 20px;
 }
@@ -284,7 +291,7 @@ p {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 h2.ones {
-    font-size: 36px;
+    font-size: 35px;
     margin-top: 5rem;
     position: relative;
     font-family: "Merriweather", serif;
@@ -338,8 +345,8 @@ h2.ones::after {
 .main-box {
     text-align: center;
     background-color: #f7f8f8 !important;
-    padding-bottom: 5rem;
-    border-radius: 3px;
+    padding-bottom: 6rem;
+    border-radius: 20px;
 }
 p.para8 {
     font-size: 16px;
@@ -348,7 +355,7 @@ p.para8 {
     padding-bottom: 30px;
     color: #dfdfdf !important;
     width: 72%;
-    padding-bottom: 3rem;
+    padding-bottom: 4rem;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 p.para7 {
@@ -358,14 +365,15 @@ p.para7 {
     width: 72%;
     text-align: center;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-    padding-bottom: 3rem;
+    padding-bottom: 4rem;
+    color: #677178;
 }
 .main-box1 {
     text-align: center;
     background-color: #779393;
     color: #ffffff;
-    border-radius:11px;
-    padding-bottom:5rem;
+    border-radius:20px;
+    padding-bottom:6rem;
 }
 h2 {
     font-family: "Merriweather", serif;
@@ -391,21 +399,26 @@ a.buy2{
 a.buy1:hover {
     background-color: #4b7878;
 }
-
 h1.para6 {
-    font-size: 75px;
+    font-size: 80px;
     color: #779393;
     color: #536666 !important;
 }
+h1.para7 {
+    font-size: 80px;
+}
+
 .course-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 3rem;
 }
 .diffrent-image {
     display: grid;
     grid-template-columns: 23% 23% 23% 23%;
     gap: 37px;
+    margin-bottom:11rem;
 }
 
 div.yogimg{
@@ -461,9 +474,10 @@ p.para5 {
     position:relative;
 }
 h2.std-head {
-    font-size: 45px;
+    font-size: 35px;
     color: #fff;
     padding-top: 2rem;
+    margin-bottom: 0;
 }
 p.para20 {
     color: #fff;
@@ -474,9 +488,9 @@ p.para20 {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 img.instructor {
-    height: 419px;
+    height: 442px;
     width: 385px;
-    border-radius: 22px;
+    border-radius: 20px;
 }
 .yog-instruct {
     display: grid;
@@ -603,7 +617,8 @@ input#eamil {
 }
 input#email::placeholder{
      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-
+    color:#677178;
+    font-size:16px;
 }
 a.subs {
     background-color: #779393;
@@ -658,10 +673,6 @@ ul.social-link1 {
 .para20 {
     padding-top: 3rem;
 }
-h1.para7 {
-    font-size: 75px;
-}
-
 .soc-mdia {
     display: flex;
     gap: 20px;
@@ -686,10 +697,13 @@ svg.ugb-custom-icon {
     padding-top: 4rem;
     opacity: 0.4;
 }
+
 span.tenth {
     color: #fff;
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 500;
+    padding-right: 32px;
+    letter-spacing: 1px;
 }
 a.number:hover {
     background-color: #4b7878;
@@ -717,6 +731,7 @@ a.yog-button:hover {
 }
 h3 {
     font-family: "Merriweather", serif;
+    padding-bottom:10px;
 }
 .more {
     padding-top: 25px;
@@ -748,7 +763,6 @@ img.stk-img.wp-image-137:hover {
 }
 
 img.stk-img.wp-image-137 {
-    border-radius: 14px;
     object-fit: cover;
     background-color: #263a3b !important;
     opacity: 0.4;
@@ -759,16 +773,16 @@ img.stk-img.wp-image-137 {
 div.first-img {
     position: relative;
     background-color: #263a3b !important;
-    border-radius: 14px;
+    border-radius: 20px;
     padding:0;
 }
 h2.five {
-    color: #677178;
     font-size: 20px;
+    color: #6c8181;
 }
 h2 {
     font-family: "Merriweather", serif;
-    font-size: 16px;
+    font-size: 18px;
 }
 a.social-media:hover {
     color: #4b7878;
@@ -794,7 +808,7 @@ span {
     font-size: 15px;
     font-weight: 300;
 }
-span:hover {
+span.twelve:hover {
     color: #4b7878;
 }
 i.fa-solid.fa-arrow-right {
@@ -802,6 +816,7 @@ i.fa-solid.fa-arrow-right {
 }
 h2.fjh {
     font-size: 20px;
+    margin-block:3px;
 }
 a.terms {
     color: #677178;
@@ -845,4 +860,15 @@ h2.two {
     padding-top: 18px;
     font-size: 20px;
     padding-bottom: 8px;
+}
+i.fa-solid.fa-arrow-right {
+    font-size: 11px;
+    padding-left: 10px;
+    color: #677178;
+}
+input#eamil:focus {
+    color: #677178;
+}
+.best-yog {
+    margin-top: 3rem;
 }
